@@ -1,0 +1,34 @@
+.table {
+  margin: 0 auto;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+.table,
+.name,
+.data {
+  border: 1px solid #000000;
+}
+
+.head {
+  background-color: #333333;
+  color: white;
+}
+
+.name {
+  width: 200px;
+  height: 30px;
+}
+
+.item {
+  text-transform: capitalize;
+}
+
+.item:nth-child(even) {
+  background-color: grey;
+}
+
+.data {
+  width: 200px;
+  text-align: center;
+}
